@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhihaoclitristat.github.io</id>
+    <title>Gridea</title>
+    <updated>2024-08-09T14:07:26.533Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zhihaoclitristat.github.io"/>
+    <link rel="self" href="https://zhihaoclitristat.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://zhihaoclitristat.github.io/images/avatar.png</logo>
+    <icon>https://zhihaoclitristat.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2024, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[OR-RR_RD]]></title>
+        <id>https://zhihaoclitristat.github.io/post/or-rr_rd/</id>
+        <link href="https://zhihaoclitristat.github.io/post/or-rr_rd/">
+        </link>
+        <updated>2024-08-09T13:57:57.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="east计算方式">EAST计算方式</h1>
+<h2 id="rd">RD</h2>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mi>D</mi><mo>=</mo><msub><mi>p</mi><mn>1</mn></msub><mo>−</mo><msub><mi>p</mi><mn>2</mn></msub><mspace linebreak="newline"></mspace><mi>v</mi><mi>a</mi><mi>r</mi><mo>(</mo><mi>R</mi><mi>D</mi><mo>)</mo><mo>=</mo><mfrac><mrow><msub><mi>p</mi><mn>1</mn></msub><mo>∗</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>p</mi><mn>1</mn></msub><mo>)</mo></mrow><msub><mi>n</mi><mn>1</mn></msub></mfrac><mo>+</mo><mfrac><mrow><msub><mi>p</mi><mn>2</mn></msub><mo>∗</mo><mo>(</mo><mn>1</mn><mo>−</mo><msub><mi>p</mi><mn>2</mn></msub><mo>)</mo></mrow><msub><mi>n</mi><mn>2</mn></msub></mfrac><mspace linebreak="newline"></mspace><mi>v</mi><mi>a</mi><mi>r</mi><mo>(</mo><mi>R</mi><mi>D</mi><mo>)</mo><mo>=</mo><mi>p</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mo>(</mo><mfrac><mn>1</mn><msub><mi>n</mi><mn>1</mn></msub></mfrac><mo>+</mo><mfrac><mn>1</mn><msub><mi>n</mi><mn>2</mn></msub></mfrac><mo>)</mo><mo separator="true">;</mo><mi>p</mi><mo>=</mo><mfrac><mrow><msub><mi>p</mi><mn>1</mn></msub><msub><mi>n</mi><mn>1</mn></msub><mo>+</mo><msub><mi>p</mi><mn>2</mn></msub><msub><mi>n</mi><mn>2</mn></msub></mrow><mrow><msub><mi>n</mi><mn>1</mn></msub><mo>+</mo><msub><mi>n</mi><mn>2</mn></msub></mrow></mfrac></mrow><annotation encoding="application/x-tex">RD = p_1 - p_2 \\
+var(RD) = \frac{p_1 * (1 - p_1)}{n_1} + \frac{p_2 * (1 - p_2)}{n_2} \\ 
+var(RD) = p(1 - p)(\frac{1}{n_1} + \frac{1}{n_2}); p = \frac{p_1 n_1 + p_2n_2}{n_1 +n_2}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7777700000000001em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.263em;vertical-align:-0.8360000000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.3139999999999996em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8360000000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.263em;vertical-align:-0.8360000000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.3139999999999996em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8360000000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.1574400000000002em;vertical-align:-0.8360000000000001em;"></span><span class="mord mathdefault">p</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.3139999999999996em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8360000000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.1574400000000002em;vertical-align:-0.8360000000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.3139999999999996em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8360000000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span><span class="mpunct">;</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">p</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.09633em;vertical-align:-0.8360000000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.2603300000000002em;"><span style="top:-2.3139999999999996em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8360000000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<h2 id="rr">RR</h2>
+<p>delta method</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>V</mi><mi>a</mi><mi>r</mi><mo>(</mo><mi>g</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>)</mo><mo>=</mo><msup><mi>g</mi><msup><mrow></mrow><mo mathvariant="normal">′</mo></msup></msup><mo>(</mo><mi>u</mi><mo>)</mo><mi>C</mi><mi>o</mi><mi>v</mi><mo>(</mo><mi>X</mi><mo>)</mo><mo>[</mo><msup><mi>g</mi><msup><mrow></mrow><mo mathvariant="normal">′</mo></msup></msup><mo>(</mo><mi>u</mi><mo>)</mo><msup><mo>]</mo><mi>T</mi></msup><mspace linebreak="newline"></mspace><mi>u</mi><mo>=</mo><mi>E</mi><mo>(</mo><mi>X</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">Var(g(X)) = g^{&#x27;}(u)Cov(X)[g^{&#x27;}(u)]^T \\
+u = E(X)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="mclose">)</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.24248em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.99248em;"><span style="top:-2.99248em;margin-right:0.05em;"><span class="pstrut" style="height:2.57948em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278285714285715em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">u</span><span class="mclose">)</span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="mclose">)</span><span class="mopen">[</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.99248em;"><span style="top:-2.99248em;margin-right:0.05em;"><span class="pstrut" style="height:2.57948em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278285714285715em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">u</span><span class="mclose">)</span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913309999999999em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.13889em;">T</span></span></span></span></span></span></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="mclose">)</span></span></span></span></span></p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mi>R</mi><mi>R</mi><mo>)</mo><mo>=</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><msub><mi>p</mi><mn>1</mn></msub><mo>)</mo><mo>−</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><msub><mi>p</mi><mn>2</mn></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">log(RR) = log(p_1) - log(p_2)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>求<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mi>p</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">log(p)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault">p</span><span class="mclose">)</span></span></span></span>的方差</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo separator="true">;</mo><msup><mi>g</mi><msup><mrow></mrow><mo mathvariant="normal">′</mo></msup></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mspace linebreak="newline"></mspace><mi>v</mi><mi>a</mi><mi>r</mi><mo>(</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mi>p</mi><mo>)</mo><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mi>p</mi></mfrac><mfrac><mrow><mi>p</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow><mi>n</mi></mfrac><mfrac><mn>1</mn><mi>p</mi></mfrac><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>p</mi></mrow><mrow><mi>n</mi><mi>p</mi></mrow></mfrac></mrow><annotation encoding="application/x-tex">g(x) = log(x); g^{&#x27;}(x) = \frac{1}{x} \\
+var(log(p)) = \frac{1}{p}\frac{p(1 - p)}{n}\frac{1}{p} = \frac{1 - p}{np}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.24248em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mpunct">;</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.99248em;"><span style="top:-2.99248em;margin-right:0.05em;"><span class="pstrut" style="height:2.57948em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278285714285715em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault">p</span><span class="mclose">)</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.30744em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">n</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.20188em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="mord mathdefault">p</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<h2 id="or">OR</h2>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mi>O</mi><mi>R</mi><mo>)</mo><mo>=</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mfrac><msub><mi>p</mi><mn>1</mn></msub><mrow><mn>1</mn><mo>−</mo><msub><mi>p</mi><mn>1</mn></msub></mrow></mfrac><mo>)</mo><mo>−</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mfrac><msub><mi>p</mi><mn>2</mn></msub><mrow><mn>1</mn><mo>−</mo><msub><mi>p</mi><mn>2</mn></msub></mrow></mfrac><mo>)</mo></mrow><annotation encoding="application/x-tex">log(OR) = log(\frac{p_1}{1 - p_1}) - log(\frac{p_2}{1 - p_2})
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.988em;vertical-align:-0.8804400000000001em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1075599999999999em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.988em;vertical-align:-0.8804400000000001em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1075599999999999em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>求<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>p</mi></mrow></mfrac><mo>)</mo></mrow><annotation encoding="application/x-tex">log(\frac{p}{1 - p})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.2311079999999999em;vertical-align:-0.481108em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.7475em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">−</span><span class="mord mathdefault mtight">p</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.446108em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">p</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.481108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span></span></span></span>的方差</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mfrac><mi>x</mi><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow></mfrac><mo>)</mo><mspace linebreak="newline"></mspace><msup><mi>g</mi><msup><mrow></mrow><mo mathvariant="normal">′</mo></msup></msup><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><mi>x</mi></mrow><mi>x</mi></mfrac><mfrac><mrow><mn>1</mn><mo>∗</mo><mo>(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>−</mo><mi>x</mi><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mi>x</mi><msup><mo>)</mo><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow></mfrac><mspace linebreak="newline"></mspace><mi>v</mi><mi>a</mi><mi>r</mi><mo>(</mo><mi>l</mi><mi>o</mi><mi>g</mi><mo>(</mo><mfrac><mi>p</mi><mrow><mn>1</mn><mo>−</mo><mi>p</mi></mrow></mfrac><mo>)</mo><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mi>p</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow></mfrac><mfrac><mrow><mi>p</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow><mi>n</mi></mfrac><mfrac><mn>1</mn><mrow><mi>p</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mi>p</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>[</mo><mfrac><mn>1</mn><mi>p</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>−</mo><mi>p</mi></mrow></mfrac><mo>]</mo></mrow><annotation encoding="application/x-tex">g(x) = log(\frac{x}{1 - x}) \\
+g^{&#x27;}(x) = \frac{1 - x}{x}\frac{1 * (1 - x) - x(-1)}{(1 - x)^2} = \frac{1}{x(1 - x)} \\
+var(log(\frac{p}{1 - p})) = \frac{1}{p(1 - p)}\frac{p(1 - p)}{n}\frac{1}{p(1 - p)} = \frac{1}{np(1 - p)} = \frac{1}{n}[\frac{1}{p} + \frac{1}{1 - p}]
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.8768900000000002em;vertical-align:-0.7693300000000001em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">x</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.7693300000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1.24248em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.99248em;"><span style="top:-2.99248em;margin-right:0.05em;"><span class="pstrut" style="height:2.57948em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8278285714285715em;"><span style="top:-2.931em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">x</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">x</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.740108em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">∗</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">x</span><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.25744em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">x</span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1.988em;vertical-align:-0.8804400000000001em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mopen">(</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.1075599999999999em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">)</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">n</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.25744em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.20188em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">n</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mopen">[</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">p</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.20188em;vertical-align:-0.8804400000000001em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">p</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.8804400000000001em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">]</span></span></span></span></span></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tidyverse函数]]></title>
+        <id>https://zhihaoclitristat.github.io/post/tidyverse-han-shu/</id>
+        <link href="https://zhihaoclitristat.github.io/post/tidyverse-han-shu/">
+        </link>
+        <updated>2024-08-09T13:56:29.000Z</updated>
+        <content type="html"><![CDATA[<p>https://www.cnblogs.com/YangCool/p/9944217.html</p>
+<p>[TOC]</p>
+<pre><code class="language-r">library(tidyverse)
+## -- Attaching packages ------------------------------------------------ tidyverse 1.3.0 --
+## √ ggplot2 3.3.2     √ purrr   0.3.4
+## √ tibble  3.0.4     √ dplyr   1.0.2
+## √ tidyr   1.1.2     √ stringr 1.4.0
+## √ readr   1.4.0     √ forcats 0.5.0
+## -- Conflicts --------------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+rm(list = ls())
+</code></pre>
+<pre><code class="language-r">head(mtcars)
+##                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+</code></pre>
+<h2 id="频数count-n">频数：count()、n()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  count()
+##    n
+## 1 32
+
+# 类似table()
+mtcars %&gt;% 
+  count(am)
+##   am  n
+## 1  0 19
+## 2  1 13
+
+mtcars %&gt;% 
+  count(am, vs)
+##   am vs  n
+## 1  0  0 12
+## 2  0  1  7
+## 3  1  0  6
+## 4  1  1  7
+
+# 按照频数排序
+mtcars %&gt;% 
+  count(am, vs, sort = T)
+##   am vs  n
+## 1  0  0 12
+## 2  0  1  7
+## 3  1  1  7
+## 4  1  0  6
+
+mtcars %&gt;% 
+  count(am, vs, sort = T) %&gt;% 
+  mutate(freq = n / sum(n))
+##   am vs  n    freq
+## 1  0  0 12 0.37500
+## 2  0  1  7 0.21875
+## 3  1  1  7 0.21875
+## 4  1  0  6 0.18750
+</code></pre>
+<pre><code class="language-r">mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  summarise(n())
+## `summarise()` ungrouping output (override with `.groups` argument)
+## # A tibble: 2 x 2
+##      vs `n()`
+##   &lt;dbl&gt; &lt;int&gt;
+## 1     0    18
+## 2     1    14
+
+mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  summarise(n() &gt; 15)
+## `summarise()` ungrouping output (override with `.groups` argument)
+## # A tibble: 2 x 2
+##      vs `n() &gt; 15`
+##   &lt;dbl&gt; &lt;lgl&gt;     
+## 1     0 TRUE      
+## 2     1 FALSE
+
+mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  summarise(n_distinct(mpg)) # 唯一值频数
+## `summarise()` ungrouping output (override with `.groups` argument)
+## # A tibble: 2 x 2
+##      vs `n_distinct(mpg)`
+##   &lt;dbl&gt;             &lt;int&gt;
+## 1     0                15
+## 2     1                11
+</code></pre>
+<h2 id="tibble-tribble-as_tibble">tibble()、tribble()、as_tibble()</h2>
+<pre><code class="language-r">df1 &lt;- tibble(x = c(1, 2, 3, 1), y = c(2, 3, 4, 5))
+df2 &lt;- tibble(x = c(1, 3, 4), z = c(2, 8, 9))
+
+df1 &lt;- tribble(
+  ~ x, ~ y, ~ z, 
+  1, 2, 3, 
+  4, 5, 6
+)
+df1
+## # A tibble: 2 x 3
+##       x     y     z
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2     3
+## 2     4     5     6
+
+as_tibble(mtcars)
+## # A tibble: 32 x 11
+##      mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+##  1  21       6  160    110  3.9   2.62  16.5     0     1     4     4
+##  2  21       6  160    110  3.9   2.88  17.0     0     1     4     4
+##  3  22.8     4  108     93  3.85  2.32  18.6     1     1     4     1
+##  4  21.4     6  258    110  3.08  3.22  19.4     1     0     3     1
+##  5  18.7     8  360    175  3.15  3.44  17.0     0     0     3     2
+##  6  18.1     6  225    105  2.76  3.46  20.2     1     0     3     1
+##  7  14.3     8  360    245  3.21  3.57  15.8     0     0     3     4
+##  8  24.4     4  147.    62  3.69  3.19  20       1     0     4     2
+##  9  22.8     4  141.    95  3.92  3.15  22.9     1     0     4     2
+## 10  19.2     6  168.   123  3.92  3.44  18.3     1     0     4     4
+## # ... with 22 more rows
+</code></pre>
+<h2 id="summarise-group_byall-at-if">summarise(), group_by()：all, at, if</h2>
+<pre><code class="language-r">df &lt;- mtcars %&gt;% 
+  group_by(am, vs) %&gt;% 
+  summarise(mean(mpg))
+## `summarise()` regrouping output by 'am' (override with `.groups` argument)
+df
+## # A tibble: 4 x 3
+## # Groups:   am [2]
+##      am    vs `mean(mpg)`
+##   &lt;dbl&gt; &lt;dbl&gt;       &lt;dbl&gt;
+## 1     0     0        15.0
+## 2     0     1        20.7
+## 3     1     0        19.8
+## 4     1     1        28.4
+
+mtcars$am &lt;- as.character(mtcars$am)
+mtcars %&gt;% 
+  group_by_if(function(x) is.character(x)) %&gt;% 
+  summarise(mean(mpg))
+## `summarise()` ungrouping output (override with `.groups` argument)
+## # A tibble: 2 x 2
+##   am    `mean(mpg)`
+##   &lt;chr&gt;       &lt;dbl&gt;
+## 1 0            17.1
+## 2 1            24.4
+
+mtcars %&gt;% 
+  select(mpg, wt) %&gt;% 
+  summarise_all(function(x) mean(x))
+##        mpg      wt
+## 1 20.09062 3.21725
+
+mtcars %&gt;% 
+  select(mpg, wt, hp) %&gt;% 
+  summarise_at(vars(mpg, wt), mean)
+##        mpg      wt
+## 1 20.09062 3.21725
+</code></pre>
+<pre><code class="language-r">mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  summarise_at(vars(mpg, wt), function(x) mean(x))
+## # A tibble: 2 x 3
+##      vs   mpg    wt
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     0  16.6  3.69
+## 2     1  24.6  2.61
+
+mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  summarise_at(vars(mpg, wt), function(x) c(mean(x), sd(x)))
+## # A tibble: 4 x 3
+## # Groups:   vs [2]
+##      vs   mpg    wt
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     0 16.6  3.69 
+## 2     0  3.86 0.904
+## 3     1 24.6  2.61 
+## 4     1  5.38 0.715
+
+mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  summarise_at(vars(mpg, wt), list(function(x) mean(x), function(x) sd(x)))
+## # A tibble: 2 x 5
+##      vs mpg_fn1 wt_fn1 mpg_fn2 wt_fn2
+##   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;
+## 1     0    16.6   3.69    3.86  0.904
+## 2     1    24.6   2.61    5.38  0.715
+
+
+mtcars %&gt;% 
+  summarise_all(function(x) sum(is.na(x)) / n())
+##   mpg cyl disp hp drat wt qsec vs am gear carb
+## 1   0   0    0  0    0  0    0  0  0    0    0
+
+&gt; mtcars %&gt;% 
++   group_by(am) %&gt;% 
++   summarise_if(is.numeric, list(mean, sd, max, min))
+# A tibble: 2 × 41
+     am mpg_fn1 cyl_fn1 disp_fn1 hp_fn1 drat_fn1 wt_fn1 qsec_fn1 vs_fn1
+  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
+1     0    17.1    6.95     290.   160.     3.29   3.77     18.2  0.368
+2     1    24.4    5.08     144.   127.     4.05   2.41     17.4  0.538
+# … with 32 more variables: gear_fn1 &lt;dbl&gt;, carb_fn1 &lt;dbl&gt;, mpg_fn2 &lt;dbl&gt;,
+#   cyl_fn2 &lt;dbl&gt;, disp_fn2 &lt;dbl&gt;, hp_fn2 &lt;dbl&gt;, drat_fn2 &lt;dbl&gt;, wt_fn2 &lt;dbl&gt;,
+#   qsec_fn2 &lt;dbl&gt;, vs_fn2 &lt;dbl&gt;, gear_fn2 &lt;dbl&gt;, carb_fn2 &lt;dbl&gt;,
+#   mpg_fn3 &lt;dbl&gt;, cyl_fn3 &lt;dbl&gt;, disp_fn3 &lt;dbl&gt;, hp_fn3 &lt;dbl&gt;,
+#   drat_fn3 &lt;dbl&gt;, wt_fn3 &lt;dbl&gt;, qsec_fn3 &lt;dbl&gt;, vs_fn3 &lt;dbl&gt;,
+#   gear_fn3 &lt;dbl&gt;, carb_fn3 &lt;dbl&gt;, mpg_fn4 &lt;dbl&gt;, cyl_fn4 &lt;dbl&gt;,
+#   disp_fn4 &lt;dbl&gt;, hp_fn4 &lt;dbl&gt;, drat_fn4 &lt;dbl&gt;, wt_fn4 &lt;dbl&gt;, …
+</code></pre>
+<h2 id="ungroup">ungroup</h2>
+<pre><code class="language-R"># 取消分组
+&gt; mtcars %&gt;% 
++   group_by(am) %&gt;% 
++   slice_head(n = 3)
+# A tibble: 6 × 11
+# Groups:   am [2]
+    mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1  21.4     6   258   110  3.08  3.22  19.4     1     0     3     1
+2  18.7     8   360   175  3.15  3.44  17.0     0     0     3     2
+3  18.1     6   225   105  2.76  3.46  20.2     1     0     3     1
+4  21       6   160   110  3.9   2.62  16.5     0     1     4     4
+5  21       6   160   110  3.9   2.88  17.0     0     1     4     4
+6  22.8     4   108    93  3.85  2.32  18.6     1     1     4     1
+&gt; mtcars %&gt;% 
++   group_by(am) %&gt;% 
++   ungroup() %&gt;% 
++   slice_tail(n = 3)
+# A tibble: 3 × 11
+    mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1  19.7     6   145   175  3.62  2.77  15.5     0     1     5     6
+2  15       8   301   335  3.54  3.57  14.6     0     1     5     8
+3  21.4     4   121   109  4.11  2.78  18.6     1     1     4     2
+
+&gt; mtcars %&gt;% 
++   slice_tail(n = 3)
+               mpg cyl disp  hp drat   wt qsec vs am gear carb
+Ferrari Dino  19.7   6  145 175 3.62 2.77 15.5  0  1    5    6
+Maserati Bora 15.0   8  301 335 3.54 3.57 14.6  0  1    5    8
+Volvo 142E    21.4   4  121 109 4.11 2.78 18.6  1  1    4    2
+</code></pre>
+<h2 id="selectstarts_width-ends_with-contains-num_range-one_of-everything-relocate-matches">select：starts_width, ends_with(), contains(), num_range(), one_of(), everything(), relocate(), matches()</h2>
+<p>mpg放在最后一列</p>
+<pre><code class="language-R">mtcars %&gt;% select(-mpg, everything()) %&gt;% colnames()
+</code></pre>
+<p>更改变量位置</p>
+<pre><code class="language-R">mtcars %&gt;% relocate(mpg, .after = wt) %&gt;% colnames()
+</code></pre>
+<p>选择前两列</p>
+<pre><code class="language-R">test %&gt;% 
+  select(1:2)
+</code></pre>
+<pre><code class="language-r">vars &lt;- c(&quot;mpg&quot;, &quot;wt&quot;)
+mtcars %&gt;% 
+  select(one_of(vars))
+##                      mpg    wt
+## Mazda RX4           21.0 2.620
+## Mazda RX4 Wag       21.0 2.875
+## Datsun 710          22.8 2.320
+## Hornet 4 Drive      21.4 3.215
+## Hornet Sportabout   18.7 3.440
+## Valiant             18.1 3.460
+## Duster 360          14.3 3.570
+## Merc 240D           24.4 3.190
+## Merc 230            22.8 3.150
+## Merc 280            19.2 3.440
+## Merc 280C           17.8 3.440
+## Merc 450SE          16.4 4.070
+## Merc 450SL          17.3 3.730
+## Merc 450SLC         15.2 3.780
+## Cadillac Fleetwood  10.4 5.250
+## Lincoln Continental 10.4 5.424
+## Chrysler Imperial   14.7 5.345
+## Fiat 128            32.4 2.200
+## Honda Civic         30.4 1.615
+## Toyota Corolla      33.9 1.835
+## Toyota Corona       21.5 2.465
+## Dodge Challenger    15.5 3.520
+## AMC Javelin         15.2 3.435
+## Camaro Z28          13.3 3.840
+## Pontiac Firebird    19.2 3.845
+## Fiat X1-9           27.3 1.935
+## Porsche 914-2       26.0 2.140
+## Lotus Europa        30.4 1.513
+## Ford Pantera L      15.8 3.170
+## Ferrari Dino        19.7 2.770
+## Maserati Bora       15.0 3.570
+## Volvo 142E          21.4 2.780
+
+mtcars %&gt;% 
+  select(starts_with(&quot;m&quot;)) %&gt;% 
+  colnames()
+## [1] &quot;mpg&quot;
+
+mtcars %&gt;% 
+  select(starts_with(&quot;m&quot;)) %&gt;% 
+  names()
+## [1] &quot;mpg&quot;
+
+mtcars %&gt;% 
+  select(starts_with(&quot;m&quot;) | ends_with(&quot;t&quot;)) %&gt;% 
+  names()
+## [1] &quot;mpg&quot;  &quot;drat&quot; &quot;wt&quot;
+
+mtcars %&gt;% 
+  select(contains(&quot;m&quot;)) %&gt;% 
+  names()
+## [1] &quot;mpg&quot; &quot;am&quot;
+
+# 正则表达式
+mtcars %&gt;% 
+  select(matches(&quot;.*t&quot;)) %&gt;% 
+  names()
+## [1] &quot;drat&quot; &quot;wt&quot;
+
+df &lt;- tribble(
+  ~ x1, ~ x2, ~ y1, 
+  1, 2, 3, 
+  4, 5, 6
+)
+df
+## # A tibble: 2 x 3
+##      x1    x2    y1
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2     3
+## 2     4     5     6
+
+df %&gt;% 
+  select(num_range(&quot;x&quot;, 1:2))
+## # A tibble: 2 x 2
+##      x1    x2
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     4     5
+
+df %&gt;% 
+  select(one_of(c(&quot;x1&quot;, &quot;x2&quot;)))
+## # A tibble: 2 x 2
+##      x1    x2
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     4     5
+
+df %&gt;% 
+  select(x2:y1)
+## # A tibble: 2 x 2
+##      x2    y1
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     2     3
+## 2     5     6
+
+mtcars %&gt;% 
+  select(- mpg) %&gt;% 
+  names()
+##  [1] &quot;cyl&quot;  &quot;disp&quot; &quot;hp&quot;   &quot;drat&quot; &quot;wt&quot;   &quot;qsec&quot; &quot;vs&quot;   &quot;am&quot;   &quot;gear&quot; &quot;carb&quot;
+</code></pre>
+<h2 id="do">do()</h2>
+<p>do()函数返回值必须是data.frame</p>
+<pre><code class="language-r">mtcars %&gt;% 
+  select(starts_with(&quot;m&quot;)) %&gt;% 
+  do(as_tibble(names(.)))
+## # A tibble: 1 x 1
+##   value
+##   &lt;chr&gt;
+## 1 mpg
+
+func &lt;- function(x, y) {
+  avg_x &lt;- mean(x)
+  avg_y &lt;- mean(y)
+  return(data.frame(avg_x, avg_y))
+}
+
+mtcars %&gt;% 
+  group_by(am) %&gt;% 
+  do(func(x = .$mpg, y = .$wt))
+## # A tibble: 2 x 3
+## # Groups:   am [2]
+##   am    avg_x avg_y
+##   &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1 0      17.1  3.77
+## 2 1      24.4  2.41
+
+mtcars %&gt;% 
+  group_by(am) %&gt;% 
+  do(out = func(x = .$mpg, y = .$wt))
+## # A tibble: 2 x 2
+## # Rowwise: 
+##   am    out             
+##   &lt;chr&gt; &lt;list&gt;          
+## 1 0     &lt;df[,2] [1 x 2]&gt;
+## 2 1     &lt;df[,2] [1 x 2]&gt;
+
+mtcars %&gt;% 
+  do(head(.)) %&gt;% 
+  class()
+## [1] &quot;data.frame&quot;
+
+mtcars %&gt;% 
+  head() %&gt;% 
+  class()
+## [1] &quot;data.frame&quot;
+
+# 不需要写return
+mtcars %&gt;% 
+  group_by(am) %&gt;% 
+  do({
+    avg_x = mean(.$wt) + 2
+    avg_y = mean(.$mpg) + 2
+    data.frame(x = avg_x, y = avg_y)
+  })
+## # A tibble: 2 x 3
+## # Groups:   am [2]
+##   am        x     y
+##   &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1 0      5.77  19.1
+## 2 1      4.41  26.4
+
+mtcars %&gt;% 
+  group_by(vs) %&gt;% 
+  do(as_tibble(mean(.$mpg)))
+## # A tibble: 2 x 2
+## # Groups:   vs [2]
+##      vs value
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     0  16.6
+## 2     1  24.6
+</code></pre>
+<h2 id="最大-最小数first-last-nth-top_n">最大、最小数：first()、last()、nth()、top_n()</h2>
+<pre><code class="language-r">x &lt;- 1:10
+y &lt;- 10:1
+
+first(x)
+## [1] 1
+last(y)
+## [1] 1
+
+nth(x, 1)
+## [1] 1
+nth(x, 5)
+## [1] 5
+nth(x, -2)
+## [1] 9
+nth(x, 11)
+## [1] NA
+
+mtcars %&gt;% 
+  select(mpg) %&gt;% 
+  top_n(10, wt = mpg)
+##                 mpg
+## Datsun 710     22.8
+## Merc 240D      24.4
+## Merc 230       22.8
+## Fiat 128       32.4
+## Honda Civic    30.4
+## Toyota Corolla 33.9
+## Toyota Corona  21.5
+## Fiat X1-9      27.3
+## Porsche 914-2  26.0
+## Lotus Europa   30.4
+
+mtcars %&gt;% 
+  select(mpg) %&gt;% 
+  top_n(-10, wt = mpg)
+##                      mpg
+## Duster 360          14.3
+## Merc 450SLC         15.2
+## Cadillac Fleetwood  10.4
+## Lincoln Continental 10.4
+## Chrysler Imperial   14.7
+## Dodge Challenger    15.5
+## AMC Javelin         15.2
+## Camaro Z28          13.3
+## Ford Pantera L      15.8
+## Maserati Bora       15.0
+</code></pre>
+<h2 id="slice-slice_min-slice_max-slice_head-slice_tail">slice()、slice_min()、slice_max、slice_head()、slice_tail()</h2>
+<p>选择前5行</p>
+<pre><code class="language-R">mtcars %&gt;% slice(1:5)
+</code></pre>
+<pre><code class="language-R">mtcars %&gt;% slice_min(wt, n = 10)
+mtcars %&gt;% slice_max(wt, n = 10)
+mtcars %&gt;% slice_head(n = 10)
+</code></pre>
+<h2 id="mutate">mutate()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  select(mpg, wt) %&gt;% 
+  mutate(mpg2 = mpg * 2) %&gt;% 
+  head() %&gt;% 
+  head(1)
+##   mpg   wt mpg2
+## 1  21 2.62   42
+
+# 可以直接使用刚创建的变量，先后执行
+mtcars %&gt;% 
+  mutate(wt2 = wt * 2, wt4 = wt2 * 2) %&gt;% 
+  head()
+##    mpg cyl disp  hp drat    wt  qsec vs am gear carb  wt2   wt4
+## 1 21.0   6  160 110 3.90 2.620 16.46  0  1    4    4 5.24 10.48
+## 2 21.0   6  160 110 3.90 2.875 17.02  0  1    4    4 5.75 11.50
+## 3 22.8   4  108  93 3.85 2.320 18.61  1  1    4    1 4.64  9.28
+## 4 21.4   6  258 110 3.08 3.215 19.44  1  0    3    1 6.43 12.86
+## 5 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2 6.88 13.76
+## 6 18.1   6  225 105 2.76 3.460 20.22  1  0    3    1 6.92 13.84
+</code></pre>
+<h2 id="秩次min_rank-desc">秩次：min_rank()、desc()</h2>
+<pre><code class="language-r">min_rank(c(2, 5, 3))
+## [1] 1 3 2
+order(c(2, 5, 3))
+## [1] 1 3 2
+
+desc(c(2, 5, 3))
+## [1] -2 -5 -3
+</code></pre>
+<h2 id="slice">slice()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  select(mpg) %&gt;% 
+  slice(1:3) %&gt;% 
+  slice(1, 3)
+##             mpg
+## Mazda RX4  21.0
+## Datsun 710 22.8
+</code></pre>
+<h2 id="唯一值distinct">唯一值：distinct()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  select(mpg) %&gt;% 
+  distinct(mpg)
+##                     mpg
+## Mazda RX4          21.0
+## Datsun 710         22.8
+## Hornet 4 Drive     21.4
+## Hornet Sportabout  18.7
+## Valiant            18.1
+## Duster 360         14.3
+## Merc 240D          24.4
+## Merc 280           19.2
+## Merc 280C          17.8
+## Merc 450SE         16.4
+## Merc 450SL         17.3
+## Merc 450SLC        15.2
+## Cadillac Fleetwood 10.4
+## Chrysler Imperial  14.7
+## Fiat 128           32.4
+## Honda Civic        30.4
+## Toyota Corolla     33.9
+## Toyota Corona      21.5
+## Dodge Challenger   15.5
+## Camaro Z28         13.3
+## Fiat X1-9          27.3
+## Porsche 914-2      26.0
+## Ford Pantera L     15.8
+## Ferrari Dino       19.7
+## Maserati Bora      15.0
+
+mtcars %&gt;% 
+  distinct(mpg, .keep_all = T) # 保留其余列
+##                     mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4          21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Datsun 710         22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive     21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout  18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360         14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 280           19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C          17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE         16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL         17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC        15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Chrysler Imperial  14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Fiat 128           32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic        30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla     33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger   15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## Camaro Z28         13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Fiat X1-9          27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2      26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Ford Pantera L     15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora      15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+
+# 使用两个变量确定唯一性
+mtcars %&gt;% 
+  distinct(mpg, wt, .keep_all = T)
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+
+mtcars %&gt;% 
+  distinct()
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+</code></pre>
+<h2 id="sample_n-sample_frac">sample_n()、sample_frac()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  sample_frac(0.1) %&gt;% 
+  sample_n(1)
+##             mpg cyl disp  hp drat   wt  qsec vs am gear carb
+## Duster 360 14.3   8  360 245 3.21 3.57 15.84  0  0    3    4
+</code></pre>
+<h2 id="map-map2-pmap">map()、map2()、pmap()</h2>
+<ul>
+<li>
+<p><code>map2</code>：两个元素并行</p>
+</li>
+<li>
+<p><code>pmap</code>：任意个元素并行</p>
+</li>
+</ul>
+<pre><code class="language-R">map2(x, y)
+pmap(list(x, y))
+
+&gt; map2(x, y, paste, sep = &quot; &quot;)
+[[1]]
+[1] &quot;a 1&quot;
+
+[[2]]
+[1] &quot;b 2&quot;
+
+[[3]]
+[1] &quot;c 3&quot;
+
+&gt; pmap(list(x, y, z), paste, sep = &quot; &quot;)
+[[1]]
+[1] &quot;a 1 A&quot;
+
+[[2]]
+[1] &quot;b 2 B&quot;
+
+[[3]]
+[1] &quot;c 3 C&quot;
+</code></pre>
+<ul>
+<li>map() 返回列表</li>
+<li>map_dfr() 横向组合为df</li>
+<li>map_dfc() 纵向组合为df</li>
+<li>map_dbl() 返回double向量</li>
+<li>map_chr() 返回character向量</li>
+<li>map_int() 返回integer向量</li>
+</ul>
+<pre><code class="language-r">df &lt;- tibble(
+  a = rnorm(10), 
+  b = rnorm(10), 
+  c = rnorm(10)
+)
+df
+## # A tibble: 10 x 3
+##         a       b       c
+##     &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+##  1  0.194  0.522   0.0890
+##  2 -0.102  1.18    0.770 
+##  3 -1.63   0.865   0.641 
+##  4 -1.65  -0.963   1.66  
+##  5  0.689 -0.0332  0.327 
+##  6  1.17   0.0818 -1.73  
+##  7 -0.193  2.99    0.910 
+##  8  2.53   0.421   0.0817
+##  9  1.05   0.494  -0.728 
+## 10  0.690  0.806   1.58
+
+# 返回向量
+map_dbl(df, mean)
+##         a         b         c 
+## 0.2741536 0.6365964 0.3597967
+map_dbl(df, function(x) mean(x))
+##         a         b         c 
+## 0.2741536 0.6365964 0.3597967
+map_dbl(df, function(x) mean(x)) %&gt;% class()
+## [1] &quot;numeric&quot;
+
+# map返回列表
+as.data.frame(map(df, function(x) c(mean(x), sd(x))))
+##           a         b         c
+## 1 0.2741536 0.6365964 0.3597967
+## 2 1.2714162 1.0172717 1.0225119
+mean(df$b)
+## [1] 0.6365964
+sd(df$b)
+## [1] 1.017272
+
+# map_at指定函数作用元素的位置
+c(1, 2, 3) %&gt;% 
+  map_at(c(1, 2), sqrt)
+## [[1]]
+## [1] 1
+## 
+## [[2]]
+## [1] 1.414214
+## 
+## [[3]]
+## [1] 3
+</code></pre>
+<pre><code class="language-R">list.files() %&gt;% 
+  map(read.csv, stringsAsFactors = F)
+
+list.files() %&gt;% 
+  map(~ read.csv(., stringsAsFactors = F)
+</code></pre>
+<h2 id="split-and-map">split() and map()</h2>
+<pre><code class="language-r"># 返回列表
+mtcars %&gt;% 
+  split(.$am)
+## $`0`
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## 
+## $`1`
+##                 mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4      21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag  21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710     22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Fiat 128       32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic    30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla 33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Fiat X1-9      27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2  26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Lotus Europa   30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Ford Pantera L 15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino   19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora  15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Volvo 142E     21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+
+mtcars %&gt;% 
+  split(.$am) %&gt;% 
+  map(function(df) lm(mpg ~ wt, data = df))
+## $`0`
+## 
+## Call:
+## lm(formula = mpg ~ wt, data = df)
+## 
+## Coefficients:
+## (Intercept)           wt  
+##      31.416       -3.786  
+## 
+## 
+## $`1`
+## 
+## Call:
+## lm(formula = mpg ~ wt, data = df)
+## 
+## Coefficients:
+## (Intercept)           wt  
+##      46.294       -9.084
+
+mtcars %&gt;% 
+  split(.$am) %&gt;% 
+  map(function(df) lm(mpg ~ wt, data = df)) %&gt;% 
+  map(function(li) summary(li))
+## $`0`
+## 
+## Call:
+## lm(formula = mpg ~ wt, data = df)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -3.6004 -1.5227 -0.2168  1.4816  5.0610 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  31.4161     2.9467  10.661 6.01e-09 ***
+## wt           -3.7859     0.7666  -4.939 0.000125 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.528 on 17 degrees of freedom
+## Multiple R-squared:  0.5893,	Adjusted R-squared:  0.5651 
+## F-statistic: 24.39 on 1 and 17 DF,  p-value: 0.0001246
+## 
+## 
+## $`1`
+## 
+## Call:
+## lm(formula = mpg ~ wt, data = df)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -2.4190 -1.4937 -1.2234  0.8228  6.0909 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)   46.294      3.120  14.839 1.28e-08 ***
+## wt            -9.084      1.257  -7.229 1.69e-05 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.686 on 11 degrees of freedom
+## Multiple R-squared:  0.8261,	Adjusted R-squared:  0.8103 
+## F-statistic: 52.26 on 1 and 11 DF,  p-value: 1.688e-05
+
+mtcars %&gt;% 
+  split(.$am) %&gt;% 
+  map(function(df) lm(mpg ~ wt, data = df)) %&gt;% 
+  map(function(m) summary(m)) %&gt;% 
+  map_dbl(function(x) x$r.squared)
+##         0         1 
+## 0.5892948 0.8261261
+
+split(mtcars, mtcars$vs)
+## $`0`
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## 
+## $`1`
+##                 mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Datsun 710     22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive 21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Valiant        18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Merc 240D      24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230       22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280       19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C      17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Fiat 128       32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic    30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla 33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona  21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Fiat X1-9      27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Lotus Europa   30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Volvo 142E     21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+
+split(mtcars, mtcars$vs) %&gt;% 
+  map(function(x) lm(wt ~ mpg, data = x))
+## $`0`
+## 
+## Call:
+## lm(formula = wt ~ mpg, data = x)
+## 
+## Coefficients:
+## (Intercept)          mpg  
+##       6.879       -0.192  
+## 
+## 
+## $`1`
+## 
+## Call:
+## lm(formula = wt ~ mpg, data = x)
+## 
+## Coefficients:
+## (Intercept)          mpg  
+##      5.3931      -0.1133
+
+split(mtcars, mtcars$vs) %&gt;% 
+  lapply(function(x) lm(wt ~ mpg, data = x))
+## $`0`
+## 
+## Call:
+## lm(formula = wt ~ mpg, data = x)
+## 
+## Coefficients:
+## (Intercept)          mpg  
+##       6.879       -0.192  
+## 
+## 
+## $`1`
+## 
+## Call:
+## lm(formula = wt ~ mpg, data = x)
+## 
+## Coefficients:
+## (Intercept)          mpg  
+##      5.3931      -0.1133
+</code></pre>
+<h2 id="lapply-and-sapply">lapply() and sapply()</h2>
+<p>两者都可以接受列表，但：</p>
+<ul>
+<li>lapply()返回列表</li>
+<li>sapply()返回向量或矩阵</li>
+</ul>
+<pre><code class="language-r">mtcars %&gt;% 
+  lapply(mean)
+## Warning in mean.default(X[[i]], ...): argument is not numeric or logical: returning NA
+## $mpg
+## [1] 20.09062
+## 
+## $cyl
+## [1] 6.1875
+## 
+## $disp
+## [1] 230.7219
+## 
+## $hp
+## [1] 146.6875
+## 
+## $drat
+## [1] 3.596563
+## 
+## $wt
+## [1] 3.21725
+## 
+## $qsec
+## [1] 17.84875
+## 
+## $vs
+## [1] 0.4375
+## 
+## $am
+## [1] NA
+## 
+## $gear
+## [1] 3.6875
+## 
+## $carb
+## [1] 2.8125
+
+mtcars %&gt;% 
+  lapply(function(x) c(mean(x), sd(x)))
+## Warning in mean.default(x): argument is not numeric or logical: returning NA
+## $mpg
+## [1] 20.090625  6.026948
+## 
+## $cyl
+## [1] 6.187500 1.785922
+## 
+## $disp
+## [1] 230.7219 123.9387
+## 
+## $hp
+## [1] 146.68750  68.56287
+## 
+## $drat
+## [1] 3.5965625 0.5346787
+## 
+## $wt
+## [1] 3.2172500 0.9784574
+## 
+## $qsec
+## [1] 17.848750  1.786943
+## 
+## $vs
+## [1] 0.4375000 0.5040161
+## 
+## $am
+## [1]        NA 0.4989909
+## 
+## $gear
+## [1] 3.6875000 0.7378041
+## 
+## $carb
+## [1] 2.8125 1.6152
+
+mtcars %&gt;% 
+  sapply(mean)
+## Warning in mean.default(X[[i]], ...): argument is not numeric or logical: returning NA
+##        mpg        cyl       disp         hp       drat         wt       qsec         vs 
+##  20.090625   6.187500 230.721875 146.687500   3.596563   3.217250  17.848750   0.437500 
+##         am       gear       carb 
+##         NA   3.687500   2.812500
+
+mtcars %&gt;% 
+  sapply(function(x) c(mean(x), sd(x)))
+## Warning in mean.default(x): argument is not numeric or logical: returning NA
+##            mpg      cyl     disp        hp      drat        wt      qsec        vs
+## [1,] 20.090625 6.187500 230.7219 146.68750 3.5965625 3.2172500 17.848750 0.4375000
+## [2,]  6.026948 1.785922 123.9387  68.56287 0.5346787 0.9784574  1.786943 0.5040161
+##             am      gear   carb
+## [1,]        NA 3.6875000 2.8125
+## [2,] 0.4989909 0.7378041 1.6152
+</code></pre>
+<h2 id="if_else-case_when">if_else()、case_when()</h2>
+<pre><code class="language-r">if_else(c(1, 2, 3) &gt; 2, 1, 2)
+
+mtcars %&gt;% 
+  mutate(am2 = case_when(am == 1 ~ &quot;10&quot;, 
+                         am == 0 ~ &quot;100&quot;)) %&gt;% 
+  head()
+
+df &lt;- 
+  tribble(
+    ~ a, ~ b, 
+    1, 2, 
+    2, 3, 
+    1, 4, 
+    2, 6
+  )
+df
+## # A tibble: 4 x 2
+##       a     b
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     2     3
+## 3     1     4
+## 4     2     6
+
+df %&gt;% 
+  mutate(b = case_when(a == 1 ~ 2, 
+                       a == 2 ~ 100))
+## # A tibble: 4 x 2
+##       a     b
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     2   100
+## 3     1     2
+## 4     2   100
+
+# 各语句同时编码，而非按照语句顺序编码
+df %&gt;% 
+  mutate(a = case_when(a == 1 ~ 2, 
+                       a == 2 ~ 100))
+## # A tibble: 4 x 2
+##       a     b
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     2     2
+## 2   100     3
+## 3     2     4
+## 4   100     6
+
+x &lt;- c(1:6)
+ifelse(x &gt;= 0, x, NA)
+## [1] 1 2 3 4 5 6
+
+mtcars %&gt;% 
+  select(mpg) %&gt;% 
+  mutate(mpg2 = ifelse(mpg &gt; 20, 1, 2))
+##     mpg mpg2
+## 1  21.0    1
+## 2  21.0    1
+## 3  22.8    1
+## 4  21.4    1
+## 5  18.7    2
+## 6  18.1    2
+## 7  14.3    2
+## 8  24.4    1
+## 9  22.8    1
+## 10 19.2    2
+## 11 17.8    2
+## 12 16.4    2
+## 13 17.3    2
+## 14 15.2    2
+## 15 10.4    2
+## 16 10.4    2
+## 17 14.7    2
+## 18 32.4    1
+## 19 30.4    1
+## 20 33.9    1
+## 21 21.5    1
+## 22 15.5    2
+## 23 15.2    2
+## 24 13.3    2
+## 25 19.2    2
+## 26 27.3    1
+## 27 26.0    1
+## 28 30.4    1
+## 29 15.8    2
+## 30 19.7    2
+## 31 15.0    2
+## 32 21.4    1
+
+# 支持多步运算
+mtcars %&gt;% 
+  select(mpg) %&gt;% 
+  mutate(mpg2 = {
+    mpg2 &lt;- mpg * 2
+    mpg2 &lt;- mpg2 + 1
+    mpg2
+  }) %&gt;% 
+  head()
+##    mpg mpg2
+## 1 21.0 43.0
+## 2 21.0 43.0
+## 3 22.8 46.6
+## 4 21.4 43.8
+## 5 18.7 38.4
+## 6 18.1 37.2
+
+dt &lt;- data.frame(x = c(1, 2, 3, 1, 2, 3, NA))
+dt
+##    x
+## 1  1
+## 2  2
+## 3  3
+## 4  1
+## 5  2
+## 6  3
+## 7 NA
+
+# 使用上一步生成的x
+dt %&gt;% 
+  mutate(x = x * 2, 
+         y = x * 2)
+##    x  y
+## 1  2  4
+## 2  4  8
+## 3  6 12
+## 4  2  4
+## 5  4  8
+## 6  6 12
+## 7 NA NA
+
+dt %&gt;% 
+  mutate(x2 = case_when(x == 1 ~ 10, 
+                        x == 2 ~ 20, 
+                        x == 3 ~ 30))
+##    x x2
+## 1  1 10
+## 2  2 20
+## 3  3 30
+## 4  1 10
+## 5  2 20
+## 6  3 30
+## 7 NA NA
+
+dt %&gt;% 
+  mutate(x2 = case_when(x != 1 ~ 100))
+##    x  x2
+## 1  1  NA
+## 2  2 100
+## 3  3 100
+## 4  1  NA
+## 5  2 100
+## 6  3 100
+## 7 NA  NA
+</code></pre>
+<h2 id="缺失值drop_na-replace_na-fill">缺失值：drop_na()、replace_na()、fill()</h2>
+<pre><code class="language-r">df &lt;-
+  tribble(
+    ~ x, ~ y, 
+    1, 2, 
+    3, NA, 
+    NA, 5
+  )
+df
+## # A tibble: 3 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     3    NA
+## 3    NA     5
+
+df %&gt;% 
+  drop_na()
+## # A tibble: 1 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+
+df %&gt;% 
+  drop_na(x)
+## # A tibble: 2 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     3    NA
+
+df %&gt;% 
+  replace_na(replace = list(x = 10, y = 100))
+## # A tibble: 3 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     3   100
+## 3    10     5
+
+# 由上到下填补，箭头方向
+df %&gt;% 
+  fill(x, y, .direction = &quot;down&quot;)
+## # A tibble: 3 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     3     2
+## 3     3     5
+
+df %&gt;% 
+  fill(x, y, .direction = &quot;up&quot;)
+## # A tibble: 3 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2
+## 2     3     5
+## 3    NA     5
+</code></pre>
+<h2 id="row_number">row_number</h2>
+<pre><code class="language-R&gt;">row_number(c(4, 6, 5))
+[1] 1 3 2
+&gt; order(c(4, 6, 5))
+[1] 1 3 2
+</code></pre>
+<h2 id="add_row-add_column-bind_rows-bind_columns">add_row()、add_column()、bind_rows()、bind_columns()</h2>
+<pre><code class="language-r">tb &lt;- tibble(x = c(1, 2), y = c(3, 4))
+tb
+## # A tibble: 2 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     3
+## 2     2     4
+
+tb %&gt;% 
+  add_row(x = 3, y = 5, .before = 1)
+## # A tibble: 3 x 2
+##       x     y
+##   &lt;dbl&gt; &lt;dbl&gt;
+## 1     3     5
+## 2     1     3
+## 3     2     4
+
+tb %&gt;% 
+  add_column(z = c(1, 2), .before = x)
+## # A tibble: 2 x 3
+##       z     x     y
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     1     3
+## 2     2     2     4
+</code></pre>
+<h2 id="gather-spread-unite-separate-separate_rows-pivot_wider-pivot_longer">gather(), spread(), unite(), separate(), separate_rows(), pivot_wider(), pivot_longer()</h2>
+<pre><code class="language-r"># pivot_wider()是spread()的代替
+# pivot_longer()是gather()的代替
+
+tb &lt;- tibble(age = c(1, 2, 3, 4), 
+             gender = c(1, 0, 1, 0), 
+             store_exp = c(2, 3, 4, 5), 
+             store_trans = c(3, 4, 5, 6))
+tb
+## # A tibble: 4 x 4
+##     age gender store_exp store_trans
+##   &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;
+## 1     1      1         2           3
+## 2     2      0         3           4
+## 3     3      1         4           5
+## 4     4      0         5           6
+
+tb1 &lt;- tb %&gt;% 
+  gather(key = &quot;store_class&quot;, value = &quot;store_value&quot;, store_exp, store_trans)
+
+tb1 %&gt;% 
+  spread(key = store_class, value = store_value)
+## # A tibble: 4 x 4
+##     age gender store_exp store_trans
+##   &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt;       &lt;dbl&gt;
+## 1     1      1         2           3
+## 2     2      0         3           4
+## 3     3      1         4           5
+## 4     4      0         5           6
+
+# unite separate
+
+# separet_rows
+df &lt;- tibble(
+  x = 1:3,
+  y = c(&quot;a&quot;, &quot;d,e,f&quot;, &quot;g,h&quot;),
+  z = c(&quot;1&quot;, &quot;2,3,4&quot;, &quot;5,6&quot;)
+)
+separate_rows(df, y)
+&gt; separate_rows(df, y)
+# A tibble: 6 x 3
+      x y     z    
+  &lt;int&gt; &lt;chr&gt; &lt;chr&gt;
+1     1 a     1    
+2     2 d     2,3,4
+3     2 e     2,3,4
+4     2 f     2,3,4
+5     3 g     5,6  
+6     3 h     5,6  
+
+</code></pre>
+<h2 id="glimpase">glimpase()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  glimpse()
+## Rows: 32
+## Columns: 11
+## $ mpg  &lt;dbl&gt; 21.0, 21.0, 22.8, 21.4, 18.7, 18.1, 14.3, 24.4, 22.8, 19.2, 17.8, 16.4,...
+## $ cyl  &lt;dbl&gt; 6, 6, 4, 6, 8, 6, 8, 4, 4, 6, 6, 8, 8, 8, 8, 8, 8, 4, 4, 4, 4, 8, 8, 8,...
+## $ disp &lt;dbl&gt; 160.0, 160.0, 108.0, 258.0, 360.0, 225.0, 360.0, 146.7, 140.8, 167.6, 1...
+## $ hp   &lt;dbl&gt; 110, 110, 93, 110, 175, 105, 245, 62, 95, 123, 123, 180, 180, 180, 205,...
+## $ drat &lt;dbl&gt; 3.90, 3.90, 3.85, 3.08, 3.15, 2.76, 3.21, 3.69, 3.92, 3.92, 3.92, 3.07,...
+## $ wt   &lt;dbl&gt; 2.620, 2.875, 2.320, 3.215, 3.440, 3.460, 3.570, 3.190, 3.150, 3.440, 3...
+## $ qsec &lt;dbl&gt; 16.46, 17.02, 18.61, 19.44, 17.02, 20.22, 15.84, 20.00, 22.90, 18.30, 1...
+## $ vs   &lt;dbl&gt; 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0,...
+## $ am   &lt;chr&gt; &quot;1&quot;, &quot;1&quot;, &quot;1&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;...
+## $ gear &lt;dbl&gt; 4, 4, 4, 3, 3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3,...
+## $ carb &lt;dbl&gt; 4, 4, 1, 1, 2, 1, 4, 2, 2, 4, 4, 3, 3, 3, 4, 4, 4, 1, 2, 1, 1, 2, 2, 4,...
+</code></pre>
+<h2 id="filter">filter()</h2>
+<pre><code class="language-r">mtcars %&gt;% 
+  filter(!is.na(mpg)) %&gt;% 
+  group_by(am) %&gt;% 
+  summarise_at(vars(mpg, wt), function(x) mean(x))
+## # A tibble: 2 x 3
+##   am      mpg    wt
+##   &lt;chr&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1 0      17.1  3.77
+## 2 1      24.4  2.41
+</code></pre>
+<p><code>filter</code>多个条件之间为and关系</p>
+<pre><code>test %&gt;% 
+  filter(!duplicated(x), y &gt; 3)
+</code></pre>
+<h2 id="mutate_if-at-all">mutate_if / at /all</h2>
+<p>按照语句顺序先后执行</p>
+<pre><code class="language-R">data &lt;- data.frame(x = c(1, 2, 3))
+data %&gt;% 
+  mutate(y = 2 * x, 
+         z = 2 * y)
+
+  x y  z
+1 1 2  4
+2 2 4  8
+3 3 6 12
+</code></pre>
+<pre><code class="language-R">mtcars %&gt;% 
+  mutate_if(is.numeric, as.character) %&gt;% 
+  str()
+
+mtcars %&gt;% 
+  mutate_at(vars(mpg, wt), as.character) %&gt;% 
+  str()
+
+mtcars %&gt;% 
+  mutate_all(as.character) %&gt;% 
+  str()
+</code></pre>
+<h2 id="数据连接inner_join-full-left-right">数据连接：inner_join()/ full-left-right</h2>
+<pre><code class="language-r">df1 &lt;- tribble(
+  ~ x1, ~ x2, 
+  1, 2, 
+  3, 4, 
+  5, 6
+)
+
+df2 &lt;- tribble(
+  ~ y1, ~ y2, ~ y3,  
+  1, 2, 3, 
+  5, 6, 7, 
+  7, 8, 9
+)
+
+df1 %&gt;% 
+  inner_join(df2, by = c(&quot;x1&quot; = &quot;y1&quot;))
+## # A tibble: 2 x 4
+##      x1    x2    y2    y3
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2     2     3
+## 2     5     6     6     7
+
+# 多列同时匹配  
+df1 %&gt;% 
+  inner_join(df2, by = c(&quot;x1&quot; = &quot;y1&quot;, &quot;x2&quot; = &quot;y2&quot;))
+## # A tibble: 2 x 3
+##      x1    x2    y3
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+## 1     1     2     3
+## 2     5     6     7
+  
+# full_join()
+# left_join()
+# right_join()
+</code></pre>
+<h2 id="rename">rename()</h2>
+<pre><code class="language-r"># 新名=旧名
+mtcars %&gt;% 
+  rename(MPG = mpg)
+##                      MPG cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+</code></pre>
+<h2 id="group_by-ungroup-group_map-group_modify">group_by(), ungroup(), group_map(), group_modify()</h2>
+<p>ungroup()取消分组</p>
+<p>group_by后选取最大三个数时：</p>
+<ul>
+<li>
+<p>不使用ungroup取消分组，则选取每组最大三个数</p>
+</li>
+<li>
+<p>使用ungroup取消分组后，选择。。。</p>
+</li>
+</ul>
+<pre><code class="language-R">mtcars %&gt;% 
+  group_by(gear) %&gt;% 
+  slice(1:3)
+
+# A tibble: 9 x 11
+# Groups:   gear [3]
+    mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1  21.4     6 258     110  3.08  3.22  19.4     1     0     3     1
+2  18.7     8 360     175  3.15  3.44  17.0     0     0     3     2
+3  18.1     6 225     105  2.76  3.46  20.2     1     0     3     1
+4  21       6 160     110  3.9   2.62  16.5     0     1     4     4
+5  21       6 160     110  3.9   2.88  17.0     0     1     4     4
+6  22.8     4 108      93  3.85  2.32  18.6     1     1     4     1
+7  26       4 120.     91  4.43  2.14  16.7     0     1     5     2
+8  30.4     4  95.1   113  3.77  1.51  16.9     1     1     5     2
+9  15.8     8 351     264  4.22  3.17  14.5     0     1     5     4
+
+mtcars %&gt;% 
+  group_by(gear) %&gt;% 
+  ungroup() %&gt;% 
+  slice(1:3)
+
+# A tibble: 3 x 11
+    mpg   cyl  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1  21       6   160   110  3.9   2.62  16.5     0     1     4     4
+2  21       6   160   110  3.9   2.88  17.0     0     1     4     4
+3  22.8     4   108    93  3.85  2.32  18.6     1     1     4     1
+</code></pre>
+<pre><code class="language-R">mtcars %&gt;%
+  group_by(cyl) %&gt;%
+  group_map(~ head(., 2)) # 返回列表
+
+[[1]]
+# A tibble: 2 x 10
+    mpg  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1  22.8  108     93  3.85  2.32  18.6     1     1     4     1
+2  24.4  147.    62  3.69  3.19  20       1     0     4     2
+
+[[2]]
+# A tibble: 2 x 10
+    mpg  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1    21   160   110   3.9  2.62  16.5     0     1     4     4
+2    21   160   110   3.9  2.88  17.0     0     1     4     4
+
+[[3]]
+# A tibble: 2 x 10
+    mpg  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1  18.7   360   175  3.15  3.44  17.0     0     0     3     2
+2  14.3   360   245  3.21  3.57  15.8     0     0     3     4
+
+mtcars %&gt;% 
+  group_by(cyl) %&gt;% 
+  do(head(., 2))
+
+# to use group_modify() the lambda must return a data frame
+mtcars %&gt;%
+  group_by(cyl) %&gt;% 
+group_modify(~ head(., 2)) # 效果与do()相同；返回数据框
+
+# A tibble: 6 x 11
+# Groups:   cyl [3]
+    cyl   mpg  disp    hp  drat    wt  qsec    vs    am  gear  carb
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1     4  22.8  108     93  3.85  2.32  18.6     1     1     4     1
+2     4  24.4  147.    62  3.69  3.19  20       1     0     4     2
+3     6  21    160    110  3.9   2.62  16.5     0     1     4     4
+4     6  21    160    110  3.9   2.88  17.0     0     1     4     4
+5     8  18.7  360    175  3.15  3.44  17.0     0     0     3     2
+6     8  14.3  360    245  3.21  3.57  15.8     0     0     3     4
+</code></pre>
+<h2 id="arrange-desc">arrange(), desc()</h2>
+<pre><code class="language-r">arrange(mtcars, mpg, desc(wt)) 
+##                      mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Lincoln Continental 10.4   8 460.0 215 3.00 5.424 17.82  0  0    3    4
+## Cadillac Fleetwood  10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4
+## Camaro Z28          13.3   8 350.0 245 3.73 3.840 15.41  0  0    3    4
+## Duster 360          14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Chrysler Imperial   14.7   8 440.0 230 3.23 5.345 17.42  0  0    3    4
+## Maserati Bora       15.0   8 301.0 335 3.54 3.570 14.60  0  1    5    8
+## Merc 450SLC         15.2   8 275.8 180 3.07 3.780 18.00  0  0    3    3
+## AMC Javelin         15.2   8 304.0 150 3.15 3.435 17.30  0  0    3    2
+## Dodge Challenger    15.5   8 318.0 150 2.76 3.520 16.87  0  0    3    2
+## Ford Pantera L      15.8   8 351.0 264 4.22 3.170 14.50  0  1    5    4
+## Merc 450SE          16.4   8 275.8 180 3.07 4.070 17.40  0  0    3    3
+## Merc 450SL          17.3   8 275.8 180 3.07 3.730 17.60  0  0    3    3
+## Merc 280C           17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4
+## Valiant             18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Hornet Sportabout   18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Pontiac Firebird    19.2   8 400.0 175 3.08 3.845 17.05  0  0    3    2
+## Merc 280            19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+## Ferrari Dino        19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6
+## Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Mazda RX4           21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Hornet 4 Drive      21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Volvo 142E          21.4   4 121.0 109 4.11 2.780 18.60  1  1    4    2
+## Toyota Corona       21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1
+## Merc 230            22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Merc 240D           24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Porsche 914-2       26.0   4 120.3  91 4.43 2.140 16.70  0  1    5    2
+## Fiat X1-9           27.3   4  79.0  66 4.08 1.935 18.90  1  1    4    1
+## Honda Civic         30.4   4  75.7  52 4.93 1.615 18.52  1  1    4    2
+## Lotus Europa        30.4   4  95.1 113 3.77 1.513 16.90  1  1    5    2
+## Fiat 128            32.4   4  78.7  66 4.08 2.200 19.47  1  1    4    1
+## Toyota Corolla      33.9   4  71.1  65 4.22 1.835 19.90  1  1    4    1
+</code></pre>
+<h2 id="ascharacterfactor">as.character(factor())</h2>
+<pre><code class="language-r">data &lt;- gss_cat
+levels(data$relig)
+##  [1] &quot;No answer&quot;               &quot;Don't know&quot;              &quot;Inter-nondenominational&quot;
+##  [4] &quot;Native american&quot;         &quot;Christian&quot;               &quot;Orthodox-christian&quot;     
+##  [7] &quot;Moslem/islam&quot;            &quot;Other eastern&quot;           &quot;Hinduism&quot;               
+## [10] &quot;Buddhism&quot;                &quot;Other&quot;                   &quot;None&quot;                   
+## [13] &quot;Jewish&quot;                  &quot;Catholic&quot;                &quot;Protestant&quot;             
+## [16] &quot;Not applicable&quot;
+labels(data$relig)
+##    [1] &quot;1&quot;    &quot;2&quot;    &quot;3&quot;    &quot;4&quot;    &quot;5&quot;    &quot;6&quot;    &quot;7&quot;    &quot;8&quot;    &quot;9&quot;    &quot;10&quot;   &quot;11&quot;  
+
+as.character(data$relig) # as.character()返回字符串的levels
+##    [1] &quot;Protestant&quot;              &quot;Protestant&quot;              &quot;Protestant&quot;
+</code></pre>
+<h2 id="possibly-map">possibly(), map()</h2>
+<pre><code class="language-r">res &lt;- possibly(sqrt, otherwise = NA)
+
+list(&quot;1&quot;, 2, 3, 4) %&gt;% 
+  map_dbl(res)
+## [1]       NA 1.414214 1.732051 2.000000
+</code></pre>
+<h2 id="setnames-set_names">setNames()、set_names()</h2>
+<pre><code class="language-R">urchins &lt;-
+  # Data were assembled for a tutorial 
+  # at https://www.flutterbys.com.au/stats/tut/tut7.5a.html
+  read_csv(&quot;https://tidymodels.org/start/models/urchins.csv&quot;) %&gt;% 
+  # Change the names to be a little more verbose
+  setNames(c(&quot;food_regime&quot;, &quot;initial_volume&quot;, &quot;width&quot;)) %&gt;% 
+  # Factors are very helpful for modeling, so we convert one column
+  mutate(food_regime = factor(food_regime, levels = c(&quot;Initial&quot;, &quot;Low&quot;, &quot;High&quot;)))
+</code></pre>
+<pre><code class="language-R">set_names(1:4, letters[1:4])
+a b c d 
+1 2 3 4 
+
+set_names(head(mtcars), paste0, &quot;_foo&quot;)
+                  mpg_foo cyl_foo disp_foo hp_foo drat_foo wt_foo qsec_foo vs_foo
+Mazda RX4            21.0       6      160    110     3.90  2.620    16.46      0
+Mazda RX4 Wag        21.0       6      160    110     3.90  2.875    17.02      0
+Datsun 710           22.8       4      108     93     3.85  2.320    18.61      1
+Hornet 4 Drive       21.4       6      258    110     3.08  3.215    19.44      1
+Hornet Sportabout    18.7       8      360    175     3.15  3.440    17.02      0
+Valiant              18.1       6      225    105     2.76  3.460    20.22      1
+                  am_foo gear_foo carb_foo
+Mazda RX4              1        4        4
+Mazda RX4 Wag          1        4        4
+Datsun 710             1        4        1
+Hornet 4 Drive         0        3        1
+Hornet Sportabout      0        3        2
+Valiant                0        3        1
+</code></pre>
+<h2 id="across">across</h2>
+<pre><code class="language-R">data %&gt;% 
+  group_by(cyl) %&gt;% 
+  summarise(across(everything(), mean, .names = &quot;mean_{.col}&quot;))
+
+# A tibble: 3 x 11
+    cyl mean_mpg mean_disp mean_hp mean_drat mean_wt mean_qsec mean_vs mean_am mean_gear
+  &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;
+1     4     26.7      105.    82.6      4.07    2.29      19.1   0.909   0.727      4.09
+2     6     19.7      183.   122.       3.59    3.12      18.0   0.571   0.429      3.86
+3     8     15.1      353.   209.       3.23    4.00      16.8   0       0.143      3.29
+# … with 1 more variable: mean_carb &lt;dbl&gt;
+
+data %&gt;% 
+  group_by(cyl) %&gt;% 
+  summarise(across(c(mpg, wt), mean, .names = &quot;mean_{.col}&quot;))
+
+# A tibble: 3 x 3
+    cyl mean_mpg mean_wt
+  &lt;dbl&gt;    &lt;dbl&gt;   &lt;dbl&gt;
+1     4     26.7    2.29
+2     6     19.7    3.12
+3     8     15.1    4.00
+
+data %&gt;% 
+  group_by(cyl) %&gt;% 
+  summarise(across(mpg:wt, mean, .names = &quot;mean_{.col}&quot;))
+
+data %&gt;%
+  group_by(cyl) %&gt;%
+  summarise(across(c(mpg, wt), list(mean, var), .names = &quot;{.col}.{.fn}&quot;))
+
+# A tibble: 3 x 5
+    cyl mpg.1 mpg.2  wt.1  wt.2
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1     4  26.7 20.3   2.29 0.324
+2     6  19.7  2.11  3.12 0.127
+3     8  15.1  6.55  4.00 0.577
+
+data %&gt;%
+  group_by(cyl) %&gt;%
+  summarise(across(starts_with(&quot;m&quot;), list(mean, var), .names = &quot;{.col}.{.fn}&quot;))
+
+data %&gt;%
+  group_by(cyl) %&gt;%
+  summarise(across(where(is.numeric), list(mean, var), .names = &quot;{.col}.{.fn}&quot;))
+
+data %&gt;% 
+  mutate(across(mpg:wt, ~.^2))
+
+                     mpg cyl   disp    hp    drat        wt  qsec vs am gear carb
+Mazda RX4         441.00  36  25600 12100 15.2100  6.864400 16.46  0  1    4    4
+Mazda RX4 Wag     441.00  36  25600 12100 15.2100  8.265625 17.02  0  1    4    4
+Datsun 710        519.84  16  11664  8649 14.8225  5.382400 18.61  1  1    4    1
+Hornet 4 Drive    457.96  36  66564 12100  9.4864 10.336225 19.44  1  0    3    1
+Hornet Sportabout 349.69  64 129600 30625  9.9225 11.833600 17.02  0  0    3    2
+Valiant           327.61  36  50625 11025  7.6176 11.971600 20.22  1  0    3    1
+</code></pre>
+<h2 id="rowwise">rowwise</h2>
+<p>对每一行分别进行操作</p>
+<pre><code class="language-R">data %&gt;% 
+  rowwise() %&gt;% 
+  mutate(M = mean(mpg, wt)) # mpg和wt列的平均值
+</code></pre>
+<h2 id="glimpse">glimpse()</h2>
+<h2 id="reduce-accumulate">reduce()、accumulate()</h2>
+<pre><code class="language-R">a &lt;- 1:3
+a %&gt;% reduce(sum)
+a %&gt;% accumulate(sum)
+
+&gt; a &lt;- 1:3
+&gt; a %&gt;% reduce(sum)
+[1] 6
+&gt; a %&gt;% accumulate(sum)
+[1] 1 3 6
+</code></pre>
+<h2 id="nest-unnestbroom">nest(), unnest()，broom()</h2>
+<p>https://broom.tidymodels.org/articles/broom_and_dplyr.html</p>
+<pre><code class="language-R">df1 &lt;- tibble(
+  g = c(1, 2, 3),
+  data = list(
+    tibble(x = 1, y = 2),
+    tibble(x = 4:5, y = 6:7),
+    tibble(x = 10)
+  )
+)
+df1
+
+# A tibble: 3 x 2
+      g data                
+  &lt;dbl&gt; &lt;list&gt;              
+1     1 &lt;tibble[,2] [1 × 2]&gt;
+2     2 &lt;tibble[,2] [2 × 2]&gt;
+3     3 &lt;tibble[,1] [1 × 1]&gt;
+
+df2 &lt;- tribble(
+  ~g, ~x, ~y,
+  1,  1,  2,
+  2,  4,  6,
+  2,  5,  7,
+  3, 10,  NA
+)
+df2 %&gt;% nest(data = c(x, y))
+# A tibble: 3 x 2
+      g data                
+  &lt;dbl&gt; &lt;list&gt;              
+1     1 &lt;tibble[,2] [1 × 2]&gt;
+2     2 &lt;tibble[,2] [2 × 2]&gt;
+3     3 &lt;tibble[,2] [1 × 2]&gt;
+
+df2 %&gt;% group_by(g) %&gt;% nest()
+# A tibble: 3 x 2
+# Groups:   g [3]
+      g data                
+  &lt;dbl&gt; &lt;list&gt;              
+1     1 &lt;tibble[,2] [1 × 2]&gt;
+2     2 &lt;tibble[,2] [2 × 2]&gt;
+3     3 &lt;tibble[,2] [1 × 2]&gt;
+
+df1 %&gt;% unnest(data)
+
+mtcars_nested &lt;- mtcars_nested %&gt;% 
+  mutate(model = map(data, function(df) lm(mpg ~ wt, data = df)))
+mtcars_nested
+# A tibble: 3 x 3
+# Groups:   cyl [3]
+    cyl data                    model 
+  &lt;dbl&gt; &lt;list&gt;                  &lt;list&gt;
+1     6 &lt;tibble[,10] [7 × 10]&gt;  &lt;lm&gt;  
+2     4 &lt;tibble[,10] [11 × 10]&gt; &lt;lm&gt;  
+3     8 &lt;tibble[,10] [14 × 10]&gt; &lt;lm&gt;   
+
+mtcars_nested &lt;- mtcars_nested %&gt;% 
+  mutate(model = map(model, predict))
+mtcars_nested 
+# A tibble: 3 x 3
+# Groups:   cyl [3]
+    cyl data                    model     
+  &lt;dbl&gt; &lt;list&gt;                  &lt;list&gt;    
+1     6 &lt;tibble[,10] [7 × 10]&gt;  &lt;dbl [7]&gt; 
+2     4 &lt;tibble[,10] [11 × 10]&gt; &lt;dbl [11]&gt;
+3     8 &lt;tibble[,10] [14 × 10]&gt; &lt;dbl [14]&gt;                 
+</code></pre>
+<pre><code class="language-R">data(Orange)
+Orange &lt;- as_tibble(Orange)
+Orange
+
+cor(Orange$age, Orange$circumference)
+
+Orange %&gt;% 
+  group_by(Tree) %&gt;%
+  summarize(correlation = cor(age, circumference))
+
+ct &lt;- cor.test(Orange$age, Orange$circumference)
+ct
+
+Pearsons product-moment correlation
+data:  Orange$age and Orange$circumference
+t = 12.9, df = 33, p-value = 1.931e-14
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.8342364 0.9557955
+sample estimates:
+      cor 
+0.9135189 
+
+tidy(ct)
+# A tibble: 1 x 8
+  estimate statistic  p.value parameter conf.low conf.high method            alternative
+     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;     &lt;int&gt;    &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;             &lt;chr&gt;      
+1    0.914      12.9 1.93e-14        33    0.834     0.956 Pearsons produc… two.sided
+
+nested &lt;- Orange %&gt;% 
+  nest(data = -Tree)
+
+nested %&gt;% 
+  mutate(test = map(data, ~ cor.test(.$age, .$circumference)))
+
+nested %&gt;% 
+  mutate(
+    test = map(data, ~ cor.test(.$age, .$circumference)), # S3 list-col
+    tidied = map(test, tidy)
+  ) 
+# A tibble: 5 x 4
+  Tree  data                 test    tidied              
+  &lt;ord&gt; &lt;list&gt;               &lt;list&gt;  &lt;list&gt;              
+1 1     &lt;tibble[,2] [7 × 2]&gt; &lt;htest&gt; &lt;tibble[,8] [1 × 8]&gt;
+2 2     &lt;tibble[,2] [7 × 2]&gt; &lt;htest&gt; &lt;tibble[,8] [1 × 8]&gt;
+3 3     &lt;tibble[,2] [7 × 2]&gt; &lt;htest&gt; &lt;tibble[,8] [1 × 8]&gt;
+4 4     &lt;tibble[,2] [7 × 2]&gt; &lt;htest&gt; &lt;tibble[,8] [1 × 8]&gt;
+5 5     &lt;tibble[,2] [7 × 2]&gt; &lt;htest&gt; &lt;tibble[,8] [1 × 8]&gt;
+
+Orange %&gt;% 
+  nest(data = -Tree) %&gt;% 
+  mutate(
+    test = map(data, ~ cor.test(.$age, .$circumference)), # S3 list-col
+    tidied = map(test, tidy)
+  ) %&gt;% 
+  unnest(tidied)
+
+# A tibble: 5 x 11
+  Tree  data    test   estimate statistic p.value parameter conf.low conf.high method   
+  &lt;ord&gt; &lt;list&gt;  &lt;list&gt;    &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;     &lt;int&gt;    &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;    
+1 1     &lt;tibbl… &lt;htes…    0.985      13.0 4.85e-5         5    0.901     0.998 Pearson…
+2 2     &lt;tibbl… &lt;htes…    0.987      13.9 3.43e-5         5    0.914     0.998 Pearson…
+3 3     &lt;tibbl… &lt;htes…    0.988      14.4 2.90e-5         5    0.919     0.998 Pearson…
+4 4     &lt;tibbl… &lt;htes…    0.984      12.5 5.73e-5         5    0.895     0.998 Pearson…
+5 5     &lt;tibbl… &lt;htes…    0.988      14.1 3.18e-5         5    0.916     0.998 Pearson…
+# … with 1 more variable: alternative &lt;chr&gt;
+
+lm_fit &lt;- lm(age ~ circumference, data = Orange)
+summary(lm_fit)
+tidy(lm_fit)
+
+Orange %&gt;%
+  nest(data = -Tree) %&gt;% 
+  mutate(
+    fit = map(data, ~ lm(age ~ circumference, data = .x)),
+    tidied = map(fit, tidy)
+  ) %&gt;% 
+  unnest(tidied)
+
+regressions &lt;- mtcars %&gt;%
+  nest(data = -am) %&gt;% 
+  mutate(
+    fit = map(data, ~ lm(wt ~ mpg + qsec + gear, data = .x)),
+    tidied = map(fit, tidy),
+    glanced = map(fit, glance),
+    augmented = map(fit, augment)
+  )
+
+regressions %&gt;% 
+  unnest(tidied)
+
+regressions %&gt;% 
+  unnest(glanced)
+
+regressions %&gt;% 
+  unnest(augmented)
+</code></pre>
+<h1 id="lubridate">lubridate</h1>
+<pre><code class="language-R">ymd() # 类似as.Date()
+
+year() # 提取年
+month()
+day()
+week()
+hour()
+</code></pre>
+<h2 id="broom-package">broom package</h2>
+<pre><code class="language-R">tidy()
+glance()
+augment()
+</code></pre>
+<h1 id="stringr">stringr</h1>
+<pre><code class="language-R">str_replace() # 匹配第一个
+str_replace_all() # 匹配所有
+str_replace_na()
+
+str_detect() # 检测是否存在，返回T or F
+str_locate() # 第一个匹配字符的位置
+str_locate_all() # 所有匹配字符的位置
+
+str_extract(string = &quot;hello hello&quot;, pattern = &quot;he&quot;) # 提取匹配的内容
+str_extract_all(string = &quot;hello hello&quot;, pattern = &quot;he&quot;)
+
+str_c() # 合并字符串
+str_length（）# 字符串长度
+str_split() # 分割字符串
+str_sub) # 取子集
+
+str_dup(&quot;hello&quot;, 3) # 重复字符串
+str_trim(&quot;hello world&quot;, side = &quot;left&quot;) # 去除首位空格
+</code></pre>
+<h1 id="ggplot2">ggplot2</h1>
+<ul>
+<li>coord_flip()调换x轴和y轴</li>
+</ul>
+<h1 id="其他">其他</h1>
+<ul>
+<li><code>parse_number(c(&quot;123&quot;, &quot;a&quot;))</code>：解析字符串为数字</li>
+<li><code>pull</code>：提取为向量</li>
+<li><code>prepen()</code>：加入1个元素，放在最前边</li>
+</ul>
+<pre><code class="language-R">L &lt;- list(1:3)
+a &lt;- 1:3
+
+a %&gt;% prepend(4)
+[1] 4 1 2 3
+
+L %&gt;% prepend(NA)
+[[1]]
+[1] NA
+
+[[2]]
+[1] 1 2 3
+</code></pre>
+<ul>
+<li>
+<p><code>browseVignettes(package = &quot;pkg_name&quot;)  </code>：查看帮助文档</p>
+</li>
+<li>
+<p><code>enframe</code>：向量转为数据框</p>
+</li>
+</ul>
+<pre><code class="language-R">enframe(1:3, name = &quot;hello&quot;, value = &quot;world&quot;)
+# A tibble: 3 x 2
+  hello world
+  &lt;int&gt; &lt;int&gt;
+1     1     1
+2     2     2
+3     3     3
+
+enframe(c(a = 5, b = 7))
+# A tibble: 2 x 2
+  name  value
+  &lt;chr&gt; &lt;dbl&gt;
+1 a         5
+2 b         7
+</code></pre>
+<h2 id="seq_along">seq_along()</h2>
+<pre><code class="language-R">&gt; a &lt;- 1:5
+&gt; 1:length(a)
+[1] 1 2 3 4 5
+&gt; seq_along(a)
+[1] 1 2 3 4 5
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://zhihaoclitristat.github.io/post/hello-gridea/</id>
+        <link href="https://zhihaoclitristat.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
